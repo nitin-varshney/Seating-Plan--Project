@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datesheet</title>
+    <link rel="stylesheet" type="text/css" href="css/datesheet.css">
+</head>
+<body>
+    <div class="loginbox" style="width: 400px;">
+            <h1>Datesheet</h1>
+            <form action="datesheetshow.php" method="post">
+                <label for="year">Year</label>
+                <select name="year" id="Year">
+                    <option value="year">Select Year</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                </select>
+                <label for="Sem">Semester</label>
+                <select name="sem" id="Sem">
+                    <option value="year">Select Sem</option>
+                    <option value="I">I</option>
+                    <option value="II">II</option>
+                    <option value="III">III</option>
+                    <option value="IV">IV</option>
+                    <option value="V">V</option>
+                    <option value="VI">VI</option>
+                </select>
+                <label for="Sem">Term</label>
+                <select name="term" id="Sem">
+                    <option value="year">Select Term</option>
+                    <option value="Mid">Mid</option>
+                    <option value="End">End</option>
+                </select><br><br>
+                <style>
+                    .btn
+                    {
+                        border: none;
+                        outline: none;
+                        height: 30px;
+                        width: 30%;
+                        background: #fff;
+                        color: #000;
+                        font-size: 18px;
+                        border-radius: 4px;
+                    }
+
+                    .btn:hover
+                    {
+                       cursor: pointer;
+                       background-color: rgb(137, 150, 25);
+                       color: #000;
+                    }
+                </style>
+                <input type="Submit" name="" value="Show" class="btn" style="float: left; height: 30px; width: 30%;  color: #000;">
+                <input type="reset" name="" value="Cancel" class="btn" style="float: left; margin-left: 15px;">
+                <a href="index.html"><input value="Back" class="btn"  style="margin-left: 15px; text-align: center;" ></a> 
+            </form>
+    </div>
+</body>
+</html>

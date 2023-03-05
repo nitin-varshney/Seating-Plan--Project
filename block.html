@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User</title>
+    <link rel="stylesheet" type="text/css" href="css/block.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Block</div>
+        <div class="content">
+          <form action="block.php" method="post">
+            <div class="user-details">
+                <div class="input-box"> 
+                    <label for="Sem">Block</label>
+                    <select id="Sem" name="block">
+                        <option value="year">Select Block</option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                        <option value="V">V</option>
+                        <option value="VI">VI</option>
+                        <option value="VII">VII</option>
+                        <option value="VIII">VIII</option> 
+                        <option value="IX">IX</option>
+                        <option value="X">X</option>
+                    </select><br>
+                </div>
+                <div class="input-box"> 
+                    <label for="Sem">Floor</label>
+                    <select id="Sem" name="floor">
+                        <option value="year">Select Floor</option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                        <option value="V">V</option>
+                    </select><br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Room</span>
+                    <input type="text" placeholder="Enter Room no." required name="room">
+                </div>
+            </div>
+            <div class="button1">
+              <input type="submit" value="Add">
+            </div>
+            <div class="button2">
+                <input type="reset" value="Cancel">
+            </div>
+            <div class="button3" >
+                <a href="adminpage.php"><input value="Back" class="btn"  style="margin-left: 25px; text-align: center;" ></a> 
+            </div>
+          </form>
+        </div>
+      </div>
+    
+</body>
+</html>

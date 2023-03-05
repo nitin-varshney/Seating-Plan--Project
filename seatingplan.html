@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/seatingplan.css">
+</head>
+<body>
+    <div class="loginbox" style="width: 350px; height: 250px;">
+            <h1>Seating Plan</h1>
+            <form action="seatingplanshow.php" method="post">
+                <div class="input-box">
+                    <span class="details">University Roll</span>
+                    <input type="text" placeholder="Enter University Roll No" required name="universityroll">
+                </div><br><br>
+                <style>
+                    .btn
+ {
+     border: none;
+     outline: none;
+     height: 30px;
+     width: 25%;
+     background: #fff;
+     color: #000;
+     font-size: 18px;
+     border-radius: 4px;
+ }
+
+ .btn:hover
+ {
+     cursor: pointer;
+     background-color: rgb(137, 150, 25);
+     color: #000;
+ }
+                </style>
+                <input type="Submit" name="" value="Show" class="btn" style="float: left; height: 30px; width: 30%;  color: #000;">
+                <input type="reset" name="" value="Cancel" class="btn" style="float: left; margin-left: 15px;">
+                <a href="student.html"><input value="Back" class="btn"  style="margin-left: 15px; text-align: center;" ></a> 
+            </form>
+    </div>
+</body>
+</html>
